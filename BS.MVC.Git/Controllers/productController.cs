@@ -11,6 +11,7 @@ namespace BS.MVC.Git.Controllers
         // GET: product
         public ActionResult Index()
         {
+            ViewData["Info"] = "Error";
             return View();
         }
 
